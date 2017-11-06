@@ -1,4 +1,4 @@
-site_description: "AsyncAPI"
-google_analytics: 
-root_domain: asyncapi.org
+site_description: "Define your Message-Driven APIs"
+google_analytics: UA-109278936-1
+root_domain: www.asyncapi.com
 asyncapi_version: 1.0.0
