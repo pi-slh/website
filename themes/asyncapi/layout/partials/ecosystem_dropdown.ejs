@@ -1,0 +1,27 @@
+<li class="nav-dropdown-container ecosystem">
+  <a class="nav-link">Ecosystem</a><span class="arrow"></span>
+  <ul class="nav-dropdown">
+    <li><h4>Help</h4></li>
+    <li><ul>
+      <li><a href="https://github.com/asyncapi/asyncapi " class="nav-link" target="_blank">Github repo</a></li>
+      <li><a href="https://async-apis-slack.herokuapp.com/ " class="nav-link" target="_blank">Slack channel</a></li>
+    </ul></li>
+    <li><h4>Tooling</h4></li>
+    <li>
+      <ul>
+        <li><a href="http://editor.asyncapi.org" class="nav-link" target="_blank">Online editor</a></li>
+        <li><a href="<%- url_for("/v1/tooling/docgens.html") %>" class="nav-link <%- page.path.match(/docgens.html$/) ? ' current' : '' %>">Documentation generators</a></li>
+        <li><a href="<%- url_for("/v1/tooling/codegens.html") %>" class="nav-link <%- page.path.match(/codegens.html$/) ? ' current' : '' %>">Code generators</a></li>
+      </ul>
+    </li>
+    <li><h4>News</h4></li>
+    <li><ul>
+      <li><a href="https://twitter.com/search?q=asyncapi" class="nav-link" target="_blank">Twitter</a></li>
+      <li><a href="https://medium.com/asyncapi" class="nav-link" target="_blank">Blog</a></li>
+    </ul></li>
+    <li><h4>Spread the word</h4></li>
+    <li><ul>
+      <li><a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fwww.asyncapi.org&via=fmvilas&text=Check%20out%20%23AsyncAPI.%20Worth%20having%20a%20look%21&hashtags=api%2Cmicroservices%2Ctech%2Ccode" class="nav-link" target="_blank">Tweet about it</a></li>
+    </ul></li>
+  </ul>
+</li>

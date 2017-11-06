@@ -1,0 +1,4 @@
+site_description: "AsyncAPI"
+google_analytics: 
+root_domain: asyncapi.org
+asyncapi_version: 1.0.0

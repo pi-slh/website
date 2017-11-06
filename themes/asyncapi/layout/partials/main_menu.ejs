@@ -1,0 +1,5 @@
+<%- partial('partials/learn_dropdown') %>
+<%- partial('partials/ecosystem_dropdown') %>
+<li>
+  <a href="<%- url_for("/about.html") %>" class="nav-link about<%- page.path.match(/about\.html/) ? ' current' : '' %>">About</a>
+</li>
