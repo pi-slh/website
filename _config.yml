@@ -129,7 +129,7 @@ offline:
 ## Docs: http://zespia.tw/hexo/docs/deployment.html
 deploy:
   type: git
-  repository: git@github.com:asyncapi/website.git
+  repository: git@github.com:asyncapi/asyncapi.github.io.git
 
 feed:
   type: atom
